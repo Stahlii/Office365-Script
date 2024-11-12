@@ -81,6 +81,7 @@ foreach ($user in $users) {
         }
 
         # Telefon numarasını ekleyin
+        # For test commit
         if ($cleanedMobilePhone -ne "") {
             try {
                 Update-MgUser -UserId $newUser.ObjectId -MobilePhone $cleanedMobilePhone
